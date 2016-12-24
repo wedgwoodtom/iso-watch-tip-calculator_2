@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC3E4961E0EB2450023F2C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3E4951E0EB2450023F2C2 /* AppDelegate.swift */; };
+		BDC3E4981E0EB2450023F2C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3E4971E0EB2450023F2C2 /* ViewController.swift */; };
+		BDC3E49B1E0EB2450023F2C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E4991E0EB2450023F2C2 /* Main.storyboard */; };
+		BDC3E49D1E0EB2450023F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E49C1E0EB2450023F2C2 /* Assets.xcassets */; };
+		BDC3E4A01E0EB2450023F2C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E49E1E0EB2450023F2C2 /* LaunchScreen.storyboard */; };
+		BDC3E4A51E0EB2450023F2C2 /* MessingAround WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BDC3E4A41E0EB2450023F2C2 /* MessingAround WatchKit App.app */; };
+		BDC3E4AB1E0EB2450023F2C2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E4A91E0EB2450023F2C2 /* Interface.storyboard */; };
+		BDC3E4AD1E0EB2450023F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E4AC1E0EB2450023F2C2 /* Assets.xcassets */; };
+		BDC3E4B41E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BDC3E4B31E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BDC3E4B91E0EB2450023F2C2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3E4B81E0EB2450023F2C2 /* InterfaceController.swift */; };
+		BDC3E4BB1E0EB2450023F2C2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3E4BA1E0EB2450023F2C2 /* ExtensionDelegate.swift */; };
+		BDC3E4BD1E0EB2450023F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E4BC1E0EB2450023F2C2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDC3E4A61E0EB2450023F2C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC3E48A1E0EB2450023F2C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC3E4A31E0EB2450023F2C2;
+			remoteInfo = "MessingAround WatchKit App";
+		};
+		BDC3E4B51E0EB2450023F2C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC3E48A1E0EB2450023F2C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC3E4B21E0EB2450023F2C2;
+			remoteInfo = "MessingAround WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDC3E4C41E0EB2450023F2C2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BDC3E4B41E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC3E4C81E0EB2450023F2C2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BDC3E4A51E0EB2450023F2C2 /* MessingAround WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BDC3E4921E0EB2450023F2C2 /* MessingAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessingAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC3E4951E0EB2450023F2C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDC3E4971E0EB2450023F2C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDC3E49A1E0EB2450023F2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC3E49C1E0EB2450023F2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC3E49F1E0EB2450023F2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDC3E4A11E0EB2450023F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC3E4A41E0EB2450023F2C2 /* MessingAround WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MessingAround WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC3E4AA1E0EB2450023F2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BDC3E4AC1E0EB2450023F2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC3E4AE1E0EB2450023F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC3E4B31E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MessingAround WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC3E4B81E0EB2450023F2C2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BDC3E4BA1E0EB2450023F2C2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BDC3E4BC1E0EB2450023F2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC3E4BE1E0EB2450023F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC3E48F1E0EB2450023F2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC3E4B01E0EB2450023F2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC3E4891E0EB2450023F2C2 = {
+			isa = PBXGroup;
+			children = (
+				BDC3E4941E0EB2450023F2C2 /* MessingAround */,
+				BDC3E4A81E0EB2450023F2C2 /* MessingAround WatchKit App */,
+				BDC3E4B71E0EB2450023F2C2 /* MessingAround WatchKit Extension */,
+				BDC3E4931E0EB2450023F2C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC3E4931E0EB2450023F2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3E4921E0EB2450023F2C2 /* MessingAround.app */,
+				BDC3E4A41E0EB2450023F2C2 /* MessingAround WatchKit App.app */,
+				BDC3E4B31E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC3E4941E0EB2450023F2C2 /* MessingAround */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3E4951E0EB2450023F2C2 /* AppDelegate.swift */,
+				BDC3E4971E0EB2450023F2C2 /* ViewController.swift */,
+				BDC3E4991E0EB2450023F2C2 /* Main.storyboard */,
+				BDC3E49C1E0EB2450023F2C2 /* Assets.xcassets */,
+				BDC3E49E1E0EB2450023F2C2 /* LaunchScreen.storyboard */,
+				BDC3E4A11E0EB2450023F2C2 /* Info.plist */,
+			);
+			path = MessingAround;
+			sourceTree = "<group>";
+		};
+		BDC3E4A81E0EB2450023F2C2 /* MessingAround WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3E4A91E0EB2450023F2C2 /* Interface.storyboard */,
+				BDC3E4AC1E0EB2450023F2C2 /* Assets.xcassets */,
+				BDC3E4AE1E0EB2450023F2C2 /* Info.plist */,
+			);
+			path = "MessingAround WatchKit App";
+			sourceTree = "<group>";
+		};
+		BDC3E4B71E0EB2450023F2C2 /* MessingAround WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3E4B81E0EB2450023F2C2 /* InterfaceController.swift */,
+				BDC3E4BA1E0EB2450023F2C2 /* ExtensionDelegate.swift */,
+				BDC3E4BC1E0EB2450023F2C2 /* Assets.xcassets */,
+				BDC3E4BE1E0EB2450023F2C2 /* Info.plist */,
+			);
+			path = "MessingAround WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC3E4911E0EB2450023F2C2 /* MessingAround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC3E4C91E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround" */;
+			buildPhases = (
+				BDC3E48E1E0EB2450023F2C2 /* Sources */,
+				BDC3E48F1E0EB2450023F2C2 /* Frameworks */,
+				BDC3E4901E0EB2450023F2C2 /* Resources */,
+				BDC3E4C81E0EB2450023F2C2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC3E4A71E0EB2450023F2C2 /* PBXTargetDependency */,
+			);
+			name = MessingAround;
+			productName = MessingAround;
+			productReference = BDC3E4921E0EB2450023F2C2 /* MessingAround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC3E4A31E0EB2450023F2C2 /* MessingAround WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC3E4C51E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround WatchKit App" */;
+			buildPhases = (
+				BDC3E4A21E0EB2450023F2C2 /* Resources */,
+				BDC3E4C41E0EB2450023F2C2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC3E4B61E0EB2450023F2C2 /* PBXTargetDependency */,
+			);
+			name = "MessingAround WatchKit App";
+			productName = "MessingAround WatchKit App";
+			productReference = BDC3E4A41E0EB2450023F2C2 /* MessingAround WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BDC3E4B21E0EB2450023F2C2 /* MessingAround WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC3E4C11E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround WatchKit Extension" */;
+			buildPhases = (
+				BDC3E4AF1E0EB2450023F2C2 /* Sources */,
+				BDC3E4B01E0EB2450023F2C2 /* Frameworks */,
+				BDC3E4B11E0EB2450023F2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MessingAround WatchKit Extension";
+			productName = "MessingAround WatchKit Extension";
+			productReference = BDC3E4B31E0EB2450023F2C2 /* MessingAround WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC3E48A1E0EB2450023F2C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Patterson";
+				TargetAttributes = {
+					BDC3E4911E0EB2450023F2C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BDC3E4A31E0EB2450023F2C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BDC3E4B21E0EB2450023F2C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDC3E48D1E0EB2450023F2C2 /* Build configuration list for PBXProject "MessingAround" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC3E4891E0EB2450023F2C2;
+			productRefGroup = BDC3E4931E0EB2450023F2C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC3E4911E0EB2450023F2C2 /* MessingAround */,
+				BDC3E4A31E0EB2450023F2C2 /* MessingAround WatchKit App */,
+				BDC3E4B21E0EB2450023F2C2 /* MessingAround WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC3E4901E0EB2450023F2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3E4A01E0EB2450023F2C2 /* LaunchScreen.storyboard in Resources */,
+				BDC3E49D1E0EB2450023F2C2 /* Assets.xcassets in Resources */,
+				BDC3E49B1E0EB2450023F2C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC3E4A21E0EB2450023F2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3E4AD1E0EB2450023F2C2 /* Assets.xcassets in Resources */,
+				BDC3E4AB1E0EB2450023F2C2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC3E4B11E0EB2450023F2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3E4BD1E0EB2450023F2C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC3E48E1E0EB2450023F2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3E4981E0EB2450023F2C2 /* ViewController.swift in Sources */,
+				BDC3E4961E0EB2450023F2C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC3E4AF1E0EB2450023F2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3E4BB1E0EB2450023F2C2 /* ExtensionDelegate.swift in Sources */,
+				BDC3E4B91E0EB2450023F2C2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC3E4A71E0EB2450023F2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC3E4A31E0EB2450023F2C2 /* MessingAround WatchKit App */;
+			targetProxy = BDC3E4A61E0EB2450023F2C2 /* PBXContainerItemProxy */;
+		};
+		BDC3E4B61E0EB2450023F2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC3E4B21E0EB2450023F2C2 /* MessingAround WatchKit Extension */;
+			targetProxy = BDC3E4B51E0EB2450023F2C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDC3E4991E0EB2450023F2C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC3E49A1E0EB2450023F2C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC3E49E1E0EB2450023F2C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC3E49F1E0EB2450023F2C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC3E4A91E0EB2450023F2C2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC3E4AA1E0EB2450023F2C2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC3E4BF1E0EB2450023F2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDC3E4C01E0EB2450023F2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDC3E4C21E0EB2450023F2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "MessingAround WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		BDC3E4C31E0EB2450023F2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "MessingAround WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		BDC3E4C61E0EB2450023F2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MessingAround_WatchKit_Extension;
+				INFOPLIST_FILE = "MessingAround WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		BDC3E4C71E0EB2450023F2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MessingAround_WatchKit_Extension;
+				INFOPLIST_FILE = "MessingAround WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		BDC3E4CA1E0EB2450023F2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MessingAround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDC3E4CB1E0EB2450023F2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MessingAround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsoft.MessingAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC3E48D1E0EB2450023F2C2 /* Build configuration list for PBXProject "MessingAround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC3E4BF1E0EB2450023F2C2 /* Debug */,
+				BDC3E4C01E0EB2450023F2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC3E4C11E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC3E4C21E0EB2450023F2C2 /* Debug */,
+				BDC3E4C31E0EB2450023F2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDC3E4C51E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC3E4C61E0EB2450023F2C2 /* Debug */,
+				BDC3E4C71E0EB2450023F2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDC3E4C91E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC3E4CA1E0EB2450023F2C2 /* Debug */,
+				BDC3E4CB1E0EB2450023F2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC3E48A1E0EB2450023F2C2 /* Project object */;
+}
