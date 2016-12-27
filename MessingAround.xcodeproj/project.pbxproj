@@ -546,6 +546,7 @@
 				BDC3E4C31E0EB2450023F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC3E4C51E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				BDC3E4C71E0EB2450023F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC3E4C91E0EB2450023F2C2 /* Build configuration list for PBXNativeTarget "MessingAround" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +564,7 @@
 				BDC3E4CB1E0EB2450023F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
